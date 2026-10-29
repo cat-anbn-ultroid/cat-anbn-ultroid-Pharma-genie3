@@ -28,15 +28,12 @@ export function LoginScreen() {
           className="mx-auto my-8 w-full max-w-md"
         />
         <p className="max-w-sm text-base leading-relaxed text-mint">
-          A CYP2C19 bench. Read a VCF, then retrieve only what is in the guideline file you loaded.
         </p>
       </section>
       <section className="flex items-center bg-bg px-6 py-10 lg:px-16">
         <form onSubmit={onSubmit} className="w-full max-w-md">
-          <p className="text-sm font-semibold tracking-wide text-sage uppercase">Prototype desk</p>
-          <h1 className="mt-2 text-4xl text-ink">Sign in</h1>
+          <h1 className="mt-2 text-4xl text-ink">Doctor Sign in</h1>
           <p className="mt-3 text-base leading-relaxed text-muted">
-            This lock is local to the browser. Calls are not sent to an account server.
           </p>
           <label className="mt-8 block text-sm font-semibold text-ink" htmlFor="username">
             Username
